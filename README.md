@@ -1,6 +1,5 @@
 # Checkers game using javascript, css, html
-My favorite project (currently) while a student at Western Washington Univeristy in the Computer Science Major. This project was given to me
-The following is a fully functional checkers game I made as a fun practice problem to learn html, css, javascript.
+The following is a fully functional checkers game I made as a fun practice problem to learn html, css, javascript. It incoporates error handling full invalid moves with messages on the game terminal, the game is currently set up to only work on one device, so both players must be on the same device.
 
 ## Rules: ##
 <pre>
@@ -8,7 +7,7 @@ The following is a fully functional checkers game I made as a fun practice probl
   
   1. You can only move on black squares, so the pieces move diagonally. 
   
-  2. Non kings can only move forward toward their opponent.
+  2. Non-kings can only move forward toward their opponent.
   
 <b>Capturing pieces:</b>
   
@@ -20,7 +19,7 @@ The following is a fully functional checkers game I made as a fun practice probl
   
   3. After you capture a piece, you remove it from the board and the opponent collects it.
   
-  4. If you can jump your opponent’s pieces, you must. However, if there is more than one capture possible
+  4. If you can jump your opponent’s pieces, <b>you must</b>. However, if there is more than one capture possible
   from a single square, you may jump whichever piece is preferable.
   
 <b>Kings:</b>
