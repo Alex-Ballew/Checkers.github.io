@@ -2,7 +2,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-color: grey;
-
 }
 
 .board{
@@ -63,7 +62,7 @@ body{
     background-size: 2.6vw;
     background-repeat: no-repeat;  
     background-position: .3vw .1vw;
-    background-image: url("C:/Users/Ajb82/website-practice/img/king.png");
+    background-image: url("img/king.png");
     position: relative;
 }
 
@@ -93,7 +92,7 @@ body{
     background-size: 2.6vw;
     background-repeat: no-repeat;  
     background-position: .3vw .1vw;
-    background-image: url("C:/Users/Ajb82/website-practice/img/king.png");
+    background-image: url("img/king.png");
     position: relative;
 }
 
@@ -106,7 +105,6 @@ body{
     border-color: white;
     background-color: black;
     color: white;
-    background-image: url("C:/Users/Ajb82/website-practice/img/win.gif");
     background-repeat: no-repeat;
     background-size: 27vw;
     background-position-y: 5vw;
@@ -128,7 +126,6 @@ body{
     border-width: .7vw;
     border-color: black;
     background-color: white;
-    background-image: url("C:/Users/Ajb82/website-practice/img/win.gif");
     background-repeat: no-repeat;
     background-size: 27vw;
     background-position-y: 5vw;
