@@ -19,8 +19,8 @@ The following is a fully functional checkers game I made as a fun practice probl
   
   3. After you capture a piece, you remove it from the board and the opponent collects it.
   
-  4. If you can jump your opponent’s pieces, <b>you must</b>. However, if there is more than one capture possible
-  from a single square, you may jump whichever piece is preferable.
+  4. If you can jump your opponent’s pieces, <b>you must</b>. However, if there is more than one capture 
+  possible from a single square, you may jump whichever piece is preferable.
   
 <b>Kings:</b>
   
