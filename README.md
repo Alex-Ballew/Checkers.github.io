@@ -1,3 +1,37 @@
-# Checkers.github.io
+# Checkers game using javascript, css, html
+My favorite project (currently) while a student at Western Washington Univeristy in the Computer Science Major. This project was given to me
+The following is a fully functional checkers game I made as a fun practice problem to learn html, css, javascript.
 
-https://alex-ballew.github.io/Checkers.github.io/
+## Rules: ##
+<pre>
+<b>Movement:</b>
+  
+  1. You can only move on black squares, so the pieces move diagonally. 
+  
+  2. Non kings can only move forward toward their opponent.
+  
+<b>Capturing pieces:</b>
+  
+  1. In a capturing move, a piece leaps off the opponent’s piece in a diagonal line, landing on a dark square on
+  the other side. 
+  
+  2. While you can only capture one piece per jump, you can make multiple jumps in a single turn if the 
+  positioning of the pieces allows!
+  
+  3. After you capture a piece, you remove it from the board and the opponent collects it.
+  
+  4. If you can jump your opponent’s pieces, you must. However, if there is more than one capture possible
+  from a single square, you may jump whichever piece is preferable.
+  
+<b>Kings:</b>
+  
+  1. Once you reach the first row of their opponent’s side of the board, your checker will be kinged!
+  
+  2. Kings can only move diagonally, as well. However, they can move forward or backward as opposed to single 
+  pieces.
+  
+<b>How to win:</b>
+  
+  1.You capture the entirety of a player’s pieces, or you block a player’s pieces from moving.
+</pre>
+To play: https://alex-ballew.github.io/Checkers.github.io/
