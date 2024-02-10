@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html style="height: 100%;">
+
+    <head>
+        <title> Alex's practice website page 2</title>
+        <link rel="stylesheet" href="css/style-B.css">
+        <script src="js/game-one.js"> </script>
+    </head>
+
+    <body style="height: 100%;">
+        <section class="board">
+            <div class="tile_tan" id="00"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="02"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="04"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="06"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="11"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="13"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="15"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="17"> <div class="black_checker"> </div></div>
+            <div class="tile_tan" id="20"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="22"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="24"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="26"> <div class="black_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_black"></div>
+            <div class="tile_tan" id="31"> </div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="33"> </div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="35"> </div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="37"> </div>
+            <div class="tile_tan" id="40"> </div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="42"> </div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="44"> </div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="46"> </div>
+            <div class="tile_black"> </div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="51"> <div class="blue_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="53"> <div class="blue_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="55"> <div class="blue_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="57"> <div class="blue_checker"> </div></div>
+            <div class="tile_tan" id="60"> <div class="blue_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="62"> <div class="blue_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="64"> <div class="blue_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="66"> <div class="blue_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="71"> <div class="blue_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="73"> <div class="blue_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="75"> <div class="blue_checker"> </div></div>
+            <div class="tile_black"> </div>
+            <div class="tile_tan" id="77"> <div class="blue_checker"> </div></div>
+        </section>
+        <div class="red_won" style="display: none;" id="red_won"><p><strong> Black Won! </strong></p></div>
+        <div class="blue_won" style="display: none;" id="blue_won"> <p><strong> White Won! </strong></p></div>
+        <div class="data" style="height: 650px;"> 
+            <div class="red_data">
+                <h1> Black: </h1>
+                <p> Wins: <span id="counter_black"> 0 </span><br><br><!-- proably gonna need a seperate div for this one-->
+                    Checkers remaining: <span id="black_left"> 12 </span><br><br>
+                    <span id="black_msg"> Messages: </span>
+                </p>
+                <button class="forfeit_black" id="forfeit_black">
+                    Forfeit
+                </button>
+            </div>
+            <div class="blue_data">
+                <h2> White: </h2>
+                <p> Wins: <span id="counter_white">0 </span><br><br>
+                    Checkers remaining: <span id="white_left"> 12 </span><br><br>
+                    <span id="white_msg"> Messages: </span>
+                </p>
+                <button class="forfeit_white" id="forfeit_white">
+                    Forfeit
+                </button>
+            </div>
+        </div>
+    </body>
+
+
+</html>
+
