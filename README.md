@@ -1,5 +1,5 @@
 # Checkers game using javascript, css, html
-The following is a fully functional checkers game I made as a fun practice problem to learn html, css, javascript. It incoporates error handling full invalid moves with messages on the game terminal, the game is currently set up to only work on one device, so both players must be on the same device (plan on adding ai opponent).
+The following is a fully functional checkers game I made as a fun practice problem to learn html, css, javascript. It incoporates error handling with invalid moves and gives messages on the game terminal, the game is currently set up to only work on one device, so both players must be on the same device (plan on adding ai opponent).
 
 ## Rules: ##
 <pre>
